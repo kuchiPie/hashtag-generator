@@ -4,7 +4,7 @@ import openai
 processor = BlipProcessor.from_pretrained("Salesforce/blip-image-captioning-base")
 model = BlipForConditionalGeneration.from_pretrained("Salesforce/blip-image-captioning-base")
 import json
-openai.api_key = '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'
+openai.api_key = 'ADD_KEY_HERE'
 
 def get_caption(img):
      
