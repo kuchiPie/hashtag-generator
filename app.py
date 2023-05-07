@@ -14,6 +14,7 @@ if image_file is not None:
 
     # hashtag extraction on the image
     caption = get_caption(image_file)
+    
     hashtags = get_hashtags(caption)
 
     st.write("Related Top 10 Trendy Instagram Hashtags:")
